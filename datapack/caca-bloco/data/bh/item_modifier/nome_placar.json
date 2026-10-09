@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:set_name",
+  "entity": "this",
+  "target": "custom_name",
+  "name": [
+    "",
+    { "selector": "@s", "color": "yellow", "bold": true },
+    { "text": "\n" },
+    { "score": { "name": "@s", "objective": "bh.pts" }, "color": "white", "bold": true },
+    { "text": " pts", "color": "gray" }
+  ]
+}

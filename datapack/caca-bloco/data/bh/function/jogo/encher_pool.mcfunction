@@ -1,0 +1,6 @@
+data modify storage bh:data pool set value []
+execute if data storage bh:data cfg{dif:"facil"} run data modify storage bh:data pool append from storage bh:data items.facil[]
+execute if data storage bh:data cfg{dif:"medio"} run data modify storage bh:data pool append from storage bh:data items.medio[]
+execute if data storage bh:data cfg{dif:"dificil"} run data modify storage bh:data pool append from storage bh:data items.dificil[]
+execute if data storage bh:data cfg{dif:"misto"} run data modify storage bh:data pool append from storage bh:data items.todos[]
+execute unless data storage bh:data pool[0] run data modify storage bh:data pool append from storage bh:data items.todos[]

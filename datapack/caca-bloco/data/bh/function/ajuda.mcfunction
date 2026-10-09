@@ -1,0 +1,13 @@
+tellraw @s {"text":"\n★ Caça Bloco — comandos ★","color":"gold","bold":true}
+tellraw @s ["",{"text":"/function bh:construir","color":"yellow"},{"text":"  constrói o lobby onde você está","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:mestre","color":"yellow"},{"text":"  torna VOCÊ o mestre (dono da alavanca)","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:definir_mestre {nome:\"Nome\"}","color":"yellow"},{"text":"  torna outro jogador o mestre","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:entrar","color":"yellow"},{"text":" / ","color":"gray"},{"text":"bh:sair","color":"yellow"},{"text":"  entra ou sai da partida","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:iniciar","color":"yellow"},{"text":"  novo jogo (ou o mestre puxa a alavanca)","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:parar","color":"yellow"},{"text":"  encerra o jogo","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:config/rodadas {n:10}","color":"yellow"},{"text":"  nº de rodadas","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:config/dificuldade {nivel:facil}","color":"yellow"},{"text":"  facil | medio | dificil | misto","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:setar_spawn","color":"yellow"},{"text":"  define o spawn do mundo onde você está (a bússola aponta para ele)","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:config/raio {r:16}","color":"yellow"},{"text":"  raio da área protegida do spawn","color":"gray"}]
+tellraw @s ["",{"text":"/function bh:config/ver","color":"yellow"},{"text":"  mostra a configuração atual","color":"gray"}]
+tellraw @s ["",{"text":"Documentação completa: docs/COMANDOS.md no repositório","color":"gray","italic":true}]

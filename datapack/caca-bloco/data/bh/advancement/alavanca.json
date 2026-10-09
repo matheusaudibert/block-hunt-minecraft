@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "usar": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": { "block": { "blocks": "minecraft:lever" } }
+        }
+      }
+    }
+  },
+  "rewards": { "function": "bh:eventos/alavanca" }
+}
